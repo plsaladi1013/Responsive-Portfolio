@@ -1,0 +1,44 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pushpa Latha Saladi</h1>
+        <nav class="links">
+            
+            <a  href="index.html">About</a>
+            <a  href="portfolio.html">Portifolio</a>
+            <a  href="contact.html">Contact</a>
+          </nav>
+      </header>
+<div class="container">
+    <h2> Contact </h2>
+    <form>
+            
+             Name<br>
+            <input id="txtbox" type="text" name="firstname" value="Pushpa Latha" readonly><br>
+             Email<br>
+            <input id= "txtbox" type="text" name="email" value="plsaladi1013@gmail.com" readonly><br>
+            Message<br>
+            <textarea class ="msgtxt" name="message" rows="10" cols="30" ></textarea>
+            <br>
+            <input id ="btn" type="submit" value="Submit">
+            </form>        
+</div>
+</div>
+</body>
+<footer class="footer">
+    Copyright &copy;
+  </footer>
+</html>
